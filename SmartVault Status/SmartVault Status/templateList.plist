@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>RestoredInter</key>
+	<string>The SmartVault Service is back online and fully operational. We sincerely apologize to all of our customers impacted by this intermittent disruption. If you are still having problems accessing SmartVault, please clear your cache and try logging in again.</string>
+	<key>ETAInter</key>
+	<string>Our engineering team has been able to diagnose the issue that caused the intermittent disruption, and the service should be fully restored within the hour.</string>
+	<key>1HrInter</key>
+	<string>The SmartVault Service continues to experience intermittent service disruption. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 1 hour.</string>
+	<key>15MinInter</key>
+	<string>The SmartVault Service continues to experience intermittent service disruption. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 15 minutes.</string>
+	<key>InitialInter</key>
+	<string>The SmartVault Service is experiencing intermittent service interruptions. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 15 minutes.</string>
+	<key>RestoredCritical</key>
+	<string>The SmartVault Service is back online and fully operational. We sincerely apologize to all of our customers impacted by this service disruption. If you are still having problems accessing SmartVault, please clear your cache and try logging in again. </string>
+	<key>ETACritical</key>
+	<string>Our engineering team has been able to diagnose the issue that has caused the system outage, and is working now to restore the SmartVault Service. Expect SmartVault to be back online within an hour.</string>
+	<key>1HrCritical</key>
+	<string>The SmartVault Service is offline. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 1 hour.</string>
+	<key>15MinCritical</key>
+	<string>The SmartVault Service remains offline. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 15 minutes.</string>
+	<key>InitialCritical</key>
+	<string>The SmartVault Service is offline. We are working diligently to resolve this disruption in service, and we apologize to those customers that are currently impacted. We will provide an update in 15 minutes.</string>
+</dict>
+</plist>

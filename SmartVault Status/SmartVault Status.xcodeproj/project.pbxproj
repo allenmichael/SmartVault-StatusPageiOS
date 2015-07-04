@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0D1C291AD04EF400255FC2 /* ComponentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D1C281AD04EF400255FC2 /* ComponentModel.swift */; };
+		5E85A9D21ACF44F200FCCE96 /* IncidentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85A9D11ACF44F200FCCE96 /* IncidentTableViewController.swift */; };
+		5E85A9D41ACF4E4C00FCCE96 /* UpdateThisIncidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E85A9D31ACF4E4C00FCCE96 /* UpdateThisIncidentViewController.swift */; };
+		5E945BF61AC6182D00F2DE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E945BF51AC6182D00F2DE4C /* AppDelegate.swift */; };
+		5E945BF81AC6182D00F2DE4C /* ComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E945BF71AC6182D00F2DE4C /* ComponentViewController.swift */; };
+		5E945BFA1AC6182D00F2DE4C /* CreateIncidentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E945BF91AC6182D00F2DE4C /* CreateIncidentViewController.swift */; };
+		5E945BFD1AC6182D00F2DE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E945BFB1AC6182D00F2DE4C /* Main.storyboard */; };
+		5E945BFF1AC6182D00F2DE4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E945BFE1AC6182D00F2DE4C /* Images.xcassets */; };
+		5E945C021AC6182D00F2DE4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E945C001AC6182D00F2DE4C /* LaunchScreen.xib */; };
+		5E945C0E1AC6182D00F2DE4C /* SmartVault_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E945C0D1AC6182D00F2DE4C /* SmartVault_StatusTests.swift */; };
+		5E9807CD1B2B37F700A4DC0C /* ValidateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9807CC1B2B37F700A4DC0C /* ValidateAccountViewController.swift */; };
+		5E9807FD1B2B3F9200A4DC0C /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9807FC1B2B3F9200A4DC0C /* ApiCall.swift */; };
+		5E9807FF1B2B43D900A4DC0C /* ComponentApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9807FE1B2B43D900A4DC0C /* ComponentApiProtocol.swift */; };
+		5E9808011B2B739F00A4DC0C /* CreateIncidentApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9808001B2B739F00A4DC0C /* CreateIncidentApiProtocol.swift */; };
+		5E9808081B2B943500A4DC0C /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9808071B2B943500A4DC0C /* PasscodeViewController.swift */; };
+		5E98080B1B2B96CA00A4DC0C /* Locksmith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9808091B2B96CA00A4DC0C /* Locksmith.swift */; };
+		5E98080C1B2B96CA00A4DC0C /* LocksmithRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E98080A1B2B96CA00A4DC0C /* LocksmithRequest.swift */; };
+		5E9B7D521AD890C6002BD275 /* templateList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E9B7D511AD890C6002BD275 /* templateList.plist */; };
+		5EC0FF7F1AC67594001A0985 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5EC0FF7E1AC67594001A0985 /* FontAwesome.otf */; };
+		5EC0FF811AC675A5001A0985 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC0FF801AC675A5001A0985 /* FontAwesome.swift */; };
+		5EC0FF831AC68BC5001A0985 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC0FF821AC68BC5001A0985 /* CoreData.framework */; };
+		5EC0FF861AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EC0FF841AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodeld */; };
+		5EF144411B0661570060026B /* UnresolvedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF144401B0661570060026B /* UnresolvedModel.swift */; };
+		5EF144431B0662E80060026B /* IncidentUpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF144421B0662E80060026B /* IncidentUpdateModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E945C081AC6182D00F2DE4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E945BE81AC6182D00F2DE4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E945BEF1AC6182D00F2DE4C;
+			remoteInfo = "SmartVault Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E0D1C281AD04EF400255FC2 /* ComponentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentModel.swift; sourceTree = "<group>"; };
+		5E85A9D11ACF44F200FCCE96 /* IncidentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncidentTableViewController.swift; sourceTree = "<group>"; };
+		5E85A9D31ACF4E4C00FCCE96 /* UpdateThisIncidentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateThisIncidentViewController.swift; sourceTree = "<group>"; };
+		5E945BF01AC6182D00F2DE4C /* SmartVault Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SmartVault Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E945BF41AC6182D00F2DE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E945BF51AC6182D00F2DE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E945BF71AC6182D00F2DE4C /* ComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentViewController.swift; sourceTree = "<group>"; };
+		5E945BF91AC6182D00F2DE4C /* CreateIncidentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateIncidentViewController.swift; sourceTree = "<group>"; };
+		5E945BFC1AC6182D00F2DE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E945BFE1AC6182D00F2DE4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E945C011AC6182D00F2DE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5E945C071AC6182D00F2DE4C /* SmartVault StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SmartVault StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E945C0C1AC6182D00F2DE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E945C0D1AC6182D00F2DE4C /* SmartVault_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartVault_StatusTests.swift; sourceTree = "<group>"; };
+		5E9807CC1B2B37F700A4DC0C /* ValidateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateAccountViewController.swift; sourceTree = "<group>"; };
+		5E9807FC1B2B3F9200A4DC0C /* ApiCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		5E9807FE1B2B43D900A4DC0C /* ComponentApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComponentApiProtocol.swift; sourceTree = "<group>"; };
+		5E9808001B2B739F00A4DC0C /* CreateIncidentApiProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateIncidentApiProtocol.swift; sourceTree = "<group>"; };
+		5E9808071B2B943500A4DC0C /* PasscodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasscodeViewController.swift; path = ../PasscodeViewController.swift; sourceTree = "<group>"; };
+		5E9808091B2B96CA00A4DC0C /* Locksmith.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Locksmith.swift; path = ../../../../Documents/Locksmith/Pod/Classes/Locksmith.swift; sourceTree = "<group>"; };
+		5E98080A1B2B96CA00A4DC0C /* LocksmithRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocksmithRequest.swift; path = ../../../../Documents/Locksmith/Pod/Classes/LocksmithRequest.swift; sourceTree = "<group>"; };
+		5E9B7D511AD890C6002BD275 /* templateList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = templateList.plist; sourceTree = "<group>"; };
+		5EC0FF7E1AC67594001A0985 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		5EC0FF801AC675A5001A0985 /* FontAwesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesome.swift; sourceTree = "<group>"; };
+		5EC0FF821AC68BC5001A0985 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5EC0FF851AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartVaultStatusModel.xcdatamodel; sourceTree = "<group>"; };
+		5EF144401B0661570060026B /* UnresolvedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnresolvedModel.swift; sourceTree = "<group>"; };
+		5EF144421B0662E80060026B /* IncidentUpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IncidentUpdateModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E945BED1AC6182D00F2DE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC0FF831AC68BC5001A0985 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E945C041AC6182D00F2DE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E945BE71AC6182D00F2DE4C = {
+			isa = PBXGroup;
+			children = (
+				5EC0FF821AC68BC5001A0985 /* CoreData.framework */,
+				5E945BF21AC6182D00F2DE4C /* SmartVault Status */,
+				5E945C0A1AC6182D00F2DE4C /* SmartVault StatusTests */,
+				5E945BF11AC6182D00F2DE4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E945BF11AC6182D00F2DE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E945BF01AC6182D00F2DE4C /* SmartVault Status.app */,
+				5E945C071AC6182D00F2DE4C /* SmartVault StatusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E945BF21AC6182D00F2DE4C /* SmartVault Status */ = {
+			isa = PBXGroup;
+			children = (
+				5E9808041B2B84B100A4DC0C /* API Logic */,
+				5E9808031B2B845800A4DC0C /* Controllers */,
+				5E9808021B2B843800A4DC0C /* Models */,
+				5E945BF51AC6182D00F2DE4C /* AppDelegate.swift */,
+				5EC0FF841AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodeld */,
+				5E945BFB1AC6182D00F2DE4C /* Main.storyboard */,
+				5E945BFE1AC6182D00F2DE4C /* Images.xcassets */,
+				5E945C001AC6182D00F2DE4C /* LaunchScreen.xib */,
+				5E945BF31AC6182D00F2DE4C /* Supporting Files */,
+			);
+			path = "SmartVault Status";
+			sourceTree = "<group>";
+		};
+		5E945BF31AC6182D00F2DE4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9808091B2B96CA00A4DC0C /* Locksmith.swift */,
+				5E98080A1B2B96CA00A4DC0C /* LocksmithRequest.swift */,
+				5EC0FF801AC675A5001A0985 /* FontAwesome.swift */,
+				5EC0FF7E1AC67594001A0985 /* FontAwesome.otf */,
+				5E945BF41AC6182D00F2DE4C /* Info.plist */,
+				5E9B7D511AD890C6002BD275 /* templateList.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E945C0A1AC6182D00F2DE4C /* SmartVault StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E945C0D1AC6182D00F2DE4C /* SmartVault_StatusTests.swift */,
+				5E945C0B1AC6182D00F2DE4C /* Supporting Files */,
+			);
+			path = "SmartVault StatusTests";
+			sourceTree = "<group>";
+		};
+		5E945C0B1AC6182D00F2DE4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E945C0C1AC6182D00F2DE4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E9808021B2B843800A4DC0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D1C281AD04EF400255FC2 /* ComponentModel.swift */,
+				5EF144421B0662E80060026B /* IncidentUpdateModel.swift */,
+				5EF144401B0661570060026B /* UnresolvedModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5E9808031B2B845800A4DC0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E9808071B2B943500A4DC0C /* PasscodeViewController.swift */,
+				5E945BF71AC6182D00F2DE4C /* ComponentViewController.swift */,
+				5E945BF91AC6182D00F2DE4C /* CreateIncidentViewController.swift */,
+				5E85A9D31ACF4E4C00FCCE96 /* UpdateThisIncidentViewController.swift */,
+				5E85A9D11ACF44F200FCCE96 /* IncidentTableViewController.swift */,
+				5E9807CC1B2B37F700A4DC0C /* ValidateAccountViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5E9808041B2B84B100A4DC0C /* API Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5E9807FC1B2B3F9200A4DC0C /* ApiCall.swift */,
+				5E9808001B2B739F00A4DC0C /* CreateIncidentApiProtocol.swift */,
+				5E9807FE1B2B43D900A4DC0C /* ComponentApiProtocol.swift */,
+			);
+			name = "API Logic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E945BEF1AC6182D00F2DE4C /* SmartVault Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E945C111AC6182D00F2DE4C /* Build configuration list for PBXNativeTarget "SmartVault Status" */;
+			buildPhases = (
+				5E945BEC1AC6182D00F2DE4C /* Sources */,
+				5E945BED1AC6182D00F2DE4C /* Frameworks */,
+				5E945BEE1AC6182D00F2DE4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmartVault Status";
+			productName = "SmartVault Status";
+			productReference = 5E945BF01AC6182D00F2DE4C /* SmartVault Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E945C061AC6182D00F2DE4C /* SmartVault StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E945C141AC6182D00F2DE4C /* Build configuration list for PBXNativeTarget "SmartVault StatusTests" */;
+			buildPhases = (
+				5E945C031AC6182D00F2DE4C /* Sources */,
+				5E945C041AC6182D00F2DE4C /* Frameworks */,
+				5E945C051AC6182D00F2DE4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E945C091AC6182D00F2DE4C /* PBXTargetDependency */,
+			);
+			name = "SmartVault StatusTests";
+			productName = "SmartVault StatusTests";
+			productReference = 5E945C071AC6182D00F2DE4C /* SmartVault StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E945BE81AC6182D00F2DE4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Allen-Michael Grobelny";
+				TargetAttributes = {
+					5E945BEF1AC6182D00F2DE4C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5E945C061AC6182D00F2DE4C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5E945BEF1AC6182D00F2DE4C;
+					};
+				};
+			};
+			buildConfigurationList = 5E945BEB1AC6182D00F2DE4C /* Build configuration list for PBXProject "SmartVault Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E945BE71AC6182D00F2DE4C;
+			productRefGroup = 5E945BF11AC6182D00F2DE4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E945BEF1AC6182D00F2DE4C /* SmartVault Status */,
+				5E945C061AC6182D00F2DE4C /* SmartVault StatusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E945BEE1AC6182D00F2DE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9B7D521AD890C6002BD275 /* templateList.plist in Resources */,
+				5E945BFD1AC6182D00F2DE4C /* Main.storyboard in Resources */,
+				5E945C021AC6182D00F2DE4C /* LaunchScreen.xib in Resources */,
+				5EC0FF7F1AC67594001A0985 /* FontAwesome.otf in Resources */,
+				5E945BFF1AC6182D00F2DE4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E945C051AC6182D00F2DE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E945BEC1AC6182D00F2DE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF144431B0662E80060026B /* IncidentUpdateModel.swift in Sources */,
+				5E85A9D41ACF4E4C00FCCE96 /* UpdateThisIncidentViewController.swift in Sources */,
+				5E9808011B2B739F00A4DC0C /* CreateIncidentApiProtocol.swift in Sources */,
+				5EC0FF811AC675A5001A0985 /* FontAwesome.swift in Sources */,
+				5EF144411B0661570060026B /* UnresolvedModel.swift in Sources */,
+				5E945BFA1AC6182D00F2DE4C /* CreateIncidentViewController.swift in Sources */,
+				5E0D1C291AD04EF400255FC2 /* ComponentModel.swift in Sources */,
+				5E98080C1B2B96CA00A4DC0C /* LocksmithRequest.swift in Sources */,
+				5E9808081B2B943500A4DC0C /* PasscodeViewController.swift in Sources */,
+				5E98080B1B2B96CA00A4DC0C /* Locksmith.swift in Sources */,
+				5E9807FD1B2B3F9200A4DC0C /* ApiCall.swift in Sources */,
+				5E9807CD1B2B37F700A4DC0C /* ValidateAccountViewController.swift in Sources */,
+				5E945BF61AC6182D00F2DE4C /* AppDelegate.swift in Sources */,
+				5E85A9D21ACF44F200FCCE96 /* IncidentTableViewController.swift in Sources */,
+				5E9807FF1B2B43D900A4DC0C /* ComponentApiProtocol.swift in Sources */,
+				5E945BF81AC6182D00F2DE4C /* ComponentViewController.swift in Sources */,
+				5EC0FF861AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E945C031AC6182D00F2DE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E945C0E1AC6182D00F2DE4C /* SmartVault_StatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E945C091AC6182D00F2DE4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E945BEF1AC6182D00F2DE4C /* SmartVault Status */;
+			targetProxy = 5E945C081AC6182D00F2DE4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E945BFB1AC6182D00F2DE4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E945BFC1AC6182D00F2DE4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E945C001AC6182D00F2DE4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E945C011AC6182D00F2DE4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E945C0F1AC6182D00F2DE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E945C101AC6182D00F2DE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E945C121AC6182D00F2DE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SmartVault Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E945C131AC6182D00F2DE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SmartVault Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E945C151AC6182D00F2DE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartVault StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartVault Status.app/SmartVault Status";
+			};
+			name = Debug;
+		};
+		5E945C161AC6182D00F2DE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartVault StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartVault Status.app/SmartVault Status";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E945BEB1AC6182D00F2DE4C /* Build configuration list for PBXProject "SmartVault Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E945C0F1AC6182D00F2DE4C /* Debug */,
+				5E945C101AC6182D00F2DE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E945C111AC6182D00F2DE4C /* Build configuration list for PBXNativeTarget "SmartVault Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E945C121AC6182D00F2DE4C /* Debug */,
+				5E945C131AC6182D00F2DE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E945C141AC6182D00F2DE4C /* Build configuration list for PBXNativeTarget "SmartVault StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E945C151AC6182D00F2DE4C /* Debug */,
+				5E945C161AC6182D00F2DE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EC0FF841AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EC0FF851AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodel */,
+			);
+			currentVersion = 5EC0FF851AC68C74001A0985 /* SmartVaultStatusModel.xcdatamodel */;
+			path = SmartVaultStatusModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5E945BE81AC6182D00F2DE4C /* Project object */;
+}
